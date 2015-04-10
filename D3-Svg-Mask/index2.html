@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SVG-Masking With D3!</title>
+</head>
+
+<script src="bower_components/d3/d3.min.js"></script>
+
+<body>
+	<svg height="540" width="960">
+		<defs>
+			<mask id="mask2"></mask>
+		</defs>
+		
+        <image xlink:href="./yosemitehike.jpg" 
+			x="0" y="0" height="540" width="960" style="mask: url(#mask2);"/>
+	</svg>
+
+	<script src="scripto.js"></script>
+</body>
+</html>
