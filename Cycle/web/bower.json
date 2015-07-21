@@ -1,0 +1,20 @@
+{
+  "name": "cycle",
+  "version": "0.0.0",
+  "authors": [
+    "David Siah <dsiah@villanova.edu>"
+  ],
+  "description": "implementing a time cycle in javascript with events",
+  "main": "cycle_browser.js",
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
